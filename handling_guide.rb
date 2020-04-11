@@ -9,6 +9,7 @@ module HandlingGuide
       event.send_embed do |embed|
         embed.color = 0xffa500
         embed.title = "📬 Post Monitor の使い方"
+        embed.url = "https://github.com/GrapeColor/post_monitor/blob/master/README.md"
 
         embed.description = 
           "Twitterのハッシュタグやタイムラインを監視し、" +
